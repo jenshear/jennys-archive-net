@@ -1,6 +1,6 @@
-body, html {
-    width: 1000px;
-}
+/* body, html {
+    width: 100%;
+} */
 
 body,
 /* unvisited link */
@@ -10,7 +10,7 @@ a:link {
   
 /* visited link */
 a:visited {
-    color: rgb(54, 54, 54);
+    color: black;
 }
   
   /* mouse over link */
@@ -29,7 +29,7 @@ html {
 }
 
 div.a {
-    width: 100%;
+    width: 75%;
     line-height: 20px;
     text-align: justify;
 }
