@@ -89,6 +89,12 @@ div.a {
     height: 25px;
 
 }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 /*table*/
 
@@ -115,10 +121,8 @@ td {
 
 .col-1,
 .col-2,
-.col-3,
-.col-4,
-.col-5 {
-    width: 100%;
+.col-3 {
+    width: 10%;
 }
 
 img {
@@ -128,14 +132,16 @@ img {
     width: 150px; /* Set a small width */
 }
 
+/*gallery*/
 
+  div.gallery img {
+    width: 100px;
+  }
 
 /* Mobile
 --------------------------------------------------*/
 
-    @media screen and (max-width: 650px) {
-} 
+    @media only screen and (max-width: 650px) { 
+.responsive {
 
-div.a {
-        width: 100%;
 }
