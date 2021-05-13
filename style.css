@@ -1,13 +1,14 @@
-/* body, html {
-    width: 100%;
-} */
+html {
+    margin: 10px;
+    margin-bottom: 20px;
+}
 
 body,
 /* unvisited link */
 a:link {
     color: black;
 }
-  
+ 
 /* visited link */
 a:visited {
     color: black;
@@ -23,16 +24,11 @@ a:visited {
     color: blue;
 }
 
-html {
-    margin: 10px;
-    margin-bottom: 20px;
-}
-
-div.a {
+/*div.a {
     width: 75%;
     line-height: 20px;
     text-align: justify;
-}
+}*/
 
 .button {
     font-family: 'Times New Roman', Times, serif;
@@ -72,43 +68,38 @@ div.a {
 .active, .accordion:hover {
     background-color: #ccc; 
 }
-  
+
+/*table*/
+
 .panel {
-    padding: 0 18px;
+    padding: 18px;
     display: none;
     background-color: white;
     overflow: hidden;
 }
 
-.main-img {
-    width: 100px;
-}
-
 .icon {
     width: 25px;
     height: 25px;
+    border-radius: 5px;  /* Rounded border */ 
+
 
 }
-  
-  .clearfix:after {
+
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
   }
 
-/*table*/
 
 table, 
-th, 
-td {
+th, td {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: left;
+    padding: 5px;
     /*width: 100%;*/
-}
-
-th, td {
-  padding: 5px;
 }
 
 th {
@@ -122,14 +113,7 @@ td {
 .col-1,
 .col-2,
 .col-3 {
-    width: 10%;
-}
-
-img {
-    border: 0px solid rgb(255, 255, 255); /* Gray border */
-    border-radius: 4px;  /* Rounded border */
-    padding: 5px; /* Some padding */
-    width: 150px; /* Set a small width */
+    width: 5%;
 }
 
 /*gallery*/
@@ -138,10 +122,8 @@ img {
     width: 100px;
   }
 
-/* Mobile
---------------------------------------------------
+/* Mobile */
 
     @media only screen and (max-width: 650px) { 
-.responsive {
 
-}*/
+}
