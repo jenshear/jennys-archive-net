@@ -69,6 +69,9 @@ a:visited {
     background-color: #ccc; 
 }
 
+/* video */
+
+
 /*table*/
 
 .panel {
@@ -90,8 +93,7 @@ a:visited {
     content: "";
     display: table;
     clear: both;
-  }
-
+}
 
 table, 
 th, td {
@@ -107,7 +109,7 @@ th {
 }
 
 td {
-    vertical-align: center;
+    vertical-align: left;
 }
 
 .col-1,
@@ -119,11 +121,11 @@ td {
 /*gallery*/
 
   div.gallery img {
-    width: 100px;
+    width: 200px;
   }
 
 /* Mobile */
 
-    @media only screen and (max-width: 650px) { 
+    @media only screen and (max-width: 560px) { 
 
 }
