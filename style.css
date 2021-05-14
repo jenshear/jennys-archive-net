@@ -24,11 +24,11 @@ a:visited {
     color: blue;
 }
 
-/*div.a {
-    width: 75%;
+div.a {
+    width: 100%;
     line-height: 20px;
     text-align: justify;
-}*/
+}
 
 .button {
     font-family: 'Times New Roman', Times, serif;
