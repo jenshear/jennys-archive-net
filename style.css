@@ -24,11 +24,13 @@ a:visited {
     color: blue;
 }
 
-div.a {
+/*div.a {
     width: 100%;
     line-height: 20px;
     text-align: justify;
-}
+}*/
+
+/*button and accordian*/
 
 .button {
     font-family: 'Times New Roman', Times, serif;
@@ -69,9 +71,6 @@ div.a {
     background-color: #ccc; 
 }
 
-/* video */
-
-
 /*table*/
 
 .panel {
@@ -89,11 +88,11 @@ div.a {
 
 }
 
-.clearfix:after {
+/*.clearfix:after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 table, 
 th, td {
@@ -122,10 +121,26 @@ td {
 
   div.gallery img {
     width: 100px;
+    max-width:100%;height:auto;"
   }
 
 /* Mobile */
 
-    @media only screen and (max-width: 650px) { 
-
-}
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
