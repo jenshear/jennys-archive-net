@@ -83,16 +83,16 @@ a:visited {
 .icon {
     width: 25px;
     height: 25px;
-    border-radius: 5px;  /* Rounded border */ 
+    border-radius: 5px;  /* rounded border */ 
 
 
 }
 
-/*.clearfix:after {
+/* .clearfix:after {
     content: "";
     display: table;
     clear: both;
-}*/
+} */
 
 table, 
 th, td {
@@ -100,7 +100,7 @@ th, td {
     border-collapse: collapse;
     text-align: left;
     padding: 5px;
-    /*width: 100%;*/
+    /* width: 100%; */
 }
 
 th {
@@ -117,14 +117,14 @@ td {
     width: 5%;
 }
 
-/*gallery*/
+/* gallery */
 
   div.gallery img {
     width: 100px;
     max-width:100%;height:auto;"
   }
 
-/* Mobile */
+/* mobile */
 
 @media only screen and (max-width: 700px) {
     .responsive {
