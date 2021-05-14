@@ -24,14 +24,14 @@ a:visited {
     color: blue;
 }
 
-div.a {
+/* div.a {
     width: 100%;
     line-height: 20px;
     text-align: justify;
-    margin-bottom: 20px;
-}
+    margin-bottom: 20px; 
+} */
 
-/*button and accordian*/
+/* button and accordian */
 
 .button {
     font-family: 'Times New Roman', Times, serif;
@@ -72,6 +72,13 @@ div.a {
     background-color: #ccc; 
 }
 
+/* gallery */
+
+div.gallery img {
+    width: 150px;
+    max-width:100%; height:auto;
+  }
+
 /*table*/
 
 .panel {
@@ -111,13 +118,6 @@ td {
 .col-3 {
     width: 5%;
 }
-
-/* gallery */
-
-div.gallery img {
-    width: 150px;
-    max-width:100%; height:auto;
-  }
 
 /* mobile */
 
