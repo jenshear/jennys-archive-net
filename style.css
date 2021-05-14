@@ -24,11 +24,12 @@ a:visited {
     color: blue;
 }
 
-/*div.a {
+div.a {
     width: 100%;
     line-height: 20px;
     text-align: justify;
-}*/
+    margin-bottom: 20px;
+}
 
 /*button and accordian*/
 
@@ -88,12 +89,6 @@ a:visited {
 
 }
 
-/* .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
 table, 
 th, td {
     border: 1px solid black;
@@ -119,27 +114,27 @@ td {
 
 /* gallery */
 
-  div.gallery img {
-    width: 100px;
-    max-width:100%;height:auto;"
+div.gallery img {
+    width: 150px;
+    max-width:100%; height:auto;
   }
 
 /* mobile */
 
 @media only screen and (max-width: 700px) {
-    .responsive {
+.responsive {
       width: 49.99999%;
       margin: 6px 0;
     }
   }
   
   @media only screen and (max-width: 500px) {
-    .responsive {
+.responsive {
       width: 100%;
     }
   }
   
-  .clearfix:after {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
