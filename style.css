@@ -108,7 +108,7 @@ a:link {
 /* gallery */
 
 div.gallery img {
-    width: 150px;
+    width: 200px;
     max-width:100%; height:auto;
 }
 
@@ -129,10 +129,11 @@ div.gallery img {
 
 table, 
 th, td {
-    border: 1px solid black;
+    border: 1px solid black; 
+    border: 2
     border-collapse: collapse;
     text-align: left;
-    padding: 5px;
+    /* padding: 5px;*/
     /* width: 100%; */
 }
 
